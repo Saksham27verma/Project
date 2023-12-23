@@ -1,0 +1,67 @@
+body{
+    background-color: #ffebcd;
+    text-align: center;
+}
+
+h1{
+    color: #f46eb3;
+    font-size:90px;
+
+}
+
+.whatsapp{
+    visibility: hidden;
+}
+
+
+.button-group{
+    margin-top: 50px;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+.yes-Btn{
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    font-weight: 600;
+    font-size: 1.2em;
+    border-radius: 30px;
+    border: 2px solid #f46eb3;
+    background-color: #ffebcd;
+    cursor: pointer;
+    margin-left: -200px;
+}
+
+.no-Btn{
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    font-weight: 600;
+    font-size: 1.2em;
+    border-radius: 30px;
+    border: 2px solid #f46eb3;
+    cursor: pointer;
+    background-color: #ffebcd;
+    margin-left: 100px;
+
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:50%;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:16px;
+}
