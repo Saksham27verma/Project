@@ -46,7 +46,21 @@ h1{
     margin-left: 100px;
 
 }
-
+@media (max-width: 768px) {
+    h1{
+        font-size: 50px;
+    }
+    .gif{
+        height: 300px;
+        width: 300px;
+    }
+    .yes-Btn{
+        margin-left: -150px;
+    }
+    .no-Btn{
+        margin-left: 50px;
+    }
+}
 
 .float{
 	position:fixed;
